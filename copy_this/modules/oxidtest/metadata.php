@@ -22,9 +22,6 @@ $aModule = array(
     'url'          => '',
     'email'        => '',
     'extend'       => array(
-        'oxidtest'      => 'oxidtest/views/oxidtest'
-    ),
-    'templates' => array(
-        'oxidtest.tpl' 	=> 'oxidtest/out/tpl/oxidtest.tpl'
+        'oxidtest'      => 'oxidtest/controllers/oxidtest'
     ),
 );
