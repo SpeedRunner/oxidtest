@@ -21,7 +21,7 @@ $aModule = array(
     'author'       => 'Peter Hoffmann',
     'url'          => '',
     'email'        => '',
-    'extend'       => array(
+    'files'       => array(
         'oxidtest'      => 'oxidtest/controllers/oxidtest'
     ),
 );
