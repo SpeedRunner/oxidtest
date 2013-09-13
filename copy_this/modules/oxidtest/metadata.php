@@ -22,6 +22,8 @@ $aModule = array(
     'url'          => '',
     'email'        => '',
     'extend'       => array(
-        'oxidtest'      => 'oxidtest/controllers/oxidtest'
+    ),
+    'files'       => array(
+        'oxidtest'      => 'oxidtest/controllers/oxidtest.php',
     ),
 );
