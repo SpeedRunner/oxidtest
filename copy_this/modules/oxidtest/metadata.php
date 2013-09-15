@@ -16,12 +16,14 @@ $sMetadataVersion = '0.0.1';
 $aModule = array(
     'id'           => 'oxidtest',
     'title'        => 'OxidTest Module',
-    'description'  => 'OxidTest Module zum erstellen einer unabhängigen Seite',
+    'description'  => 'OxidTest Module zum erstellen einer unabhï¿½ngigen Seite',
     'version'      => '0.0.1',
     'author'       => 'Peter Hoffmann',
     'url'          => '',
     'email'        => '',
+	'extend'       => array(
+    ),
     'files'       => array(
-        'oxidtest'      => 'oxidtest/controllers/oxidtest'
+        'oxidtest'      => 'oxidtest/controllers/oxidtest.php'
     ),
 );
